@@ -1,12 +1,31 @@
+:root {
+        --font-size: 16px;
+        --spacing: 20px;
+}
+
+
+
 body{
     background-color: white;
     margin: 70px;
+    margin-top: 20px;
+
+
 }
+
+@media (max-width: 500px) {
+	body { margin: 30px; }}
 
 .row {
     display: flex;
+    font-size: var(--font-size);
+    line-height: var(--spacing);
   }
-  
+
+  @media (max-width: 500px) {
+	.row { flex-direction: column; }}
+
+
 .columnpara{
 flex: 50%;
 margin-right: 50px;
@@ -16,6 +35,8 @@ margin-right: 50px;
     flex: 50%;
 }
 
+
+
   .circle{
     border-radius: 1000px;
     background-color: brown;
@@ -24,6 +45,8 @@ margin-right: 50px;
     margin-top: 40px;
     margin-left: 48%;
     }
+
+   
 
     .uppernav{
         display: flex;
@@ -43,3 +66,5 @@ margin-right: 50px;
         padding-left: 20px;
         padding-right: 20px;
     }
+
+
