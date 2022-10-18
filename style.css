@@ -2,4 +2,19 @@ body{
     background-color: white;
 }
 
-.column{display: grid;grid-template-columns: 1fr 1fr;}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .circle{
+    border-radius: 1000px;
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 48%;
+    }
