@@ -29,7 +29,11 @@ body {
 }
 
 .bluehighlight {
-    color: blue;
+    color: #00B2FF;
+}
+
+.pinkhighlight {
+  color: rgb(253, 115, 138);
 }
 
 .column {
@@ -97,6 +101,13 @@ h1{
     margin: 0px;
 
 
+}
+
+h3{
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  line-height: 110%;
+  
 }
 
 
