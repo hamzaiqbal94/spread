@@ -147,4 +147,16 @@ h3 {
     font-size: 22px;
     line-height: 26px;
   }
+
+  .column12{
+    display: flex;
+    }
+
+    .circle{
+      border-radius: 1000px;
+      margin-right: 10px;
+      width: 60px;
+      height: 60px;
+    }
 }
+
