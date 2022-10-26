@@ -14,19 +14,7 @@ body {
   overflow-x: hidden;
 }
 
-.ascii-art {
-    font-family: monospace;
-    white-space: pre;
-    position: absolute;
-    margin: auto;
-    margin-left: 48%;
-    color: rgb(253, 115, 138);
-    z-index: -1;
-    width: 30vw;
-    max-width: 40vw;
-    height: auto;
-    margin-right: 20%;
-}
+
 
 .ascii-arttwo {
   font-family: monospace;
@@ -36,8 +24,6 @@ body {
   margin-left: -30%;
   color: #909090;
 }
-
-
 
 .row {
   display: flex;
@@ -58,7 +44,8 @@ body {
 }
 
 .pinkhighlight {
-  color: rgb(253, 115, 138);
+  color: rgb(255, 88, 116);
+  font-weight: 600;
 }
 
 .column {
@@ -73,7 +60,7 @@ p {
 
 .circle1 {
   border-radius: 10px;
-  background-color: #000000;
+  background-color: rgb(255, 88, 116);
   width: 300px;
   height: 100px;
   font-family: "Bebas Neue", cursive;
@@ -233,11 +220,10 @@ a:link{text-decoration: none;}
 }
 
 h1 {
-  font-size: 250px;
+  font-size: 180px;
   font-family: "Bebas Neue", cursive;
-  line-height: 230px;
+  line-height: 160px;
   margin: 0px;
-  width: 70vw;
 }
 
 h3 {
